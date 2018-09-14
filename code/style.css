@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  background-color: #ecf5f7;
+  color: #ad8e72;
+}
+
+a {
+  color: #ad8e72;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('aroma-cinnamon-cinnamon-powder-47046.jpg');
+  height: 5vh;
+}
+
+.logo {
+  padding-top: 10vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  font-family: fantasy;
+}
+
+.logo > h3 {
+  padding-top: 1vw;
+  font-size: 3vw;
+  margin: 0;
+  color: #ad8e72;
+}
+
+.nav-links {
+  display: flex;
+  width: 60vw;
+  justify-content: space-evenly;
+}
+
+.nav-links > p {
+  padding-top: 1vw;
+}
+
+/* body:before{
+  content:'';
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+} */
+button{
+background: #ffffff;
+  color:#fff;
+  border:none;
+  position:relative;
+  height: 10vh;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.intro-div {
+  background-image: url('images/aroma-cinnamon-cinnamon-powder-47046.jpg');
+  height: 50vh;
+  background-size: cover;
+}
+
+.fun-facts-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fun-fact-number {
+  display: flex;
+  justify-content: center;
+}
+
+.fun-fact > p {
+  font-size: 3vh;
+  padding: 5vh;
+}
+
+.nut-img > img {
+  width: 50vw;
+}
+
+.nutrition {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  padding: 1vh;
+  font-size: 2vw;
+}
+
+.nut-content {
+  padding-right: 1vw;
+}
+
+#recipes-header{
+  font-family: fantasy;
+  font-size: 60px;
+  color: #ad8e72;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #edf5f7;
+}
+
+#recipes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #edf5f7;
+  padding-bottom: 75px;
+}
+
+#about-page{
+  font-family: fantasy;
+  font-size: 60px;
+  color: #ad8e72;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #edf5f7;
+}
+
+
+#recipe1{
+  display: flex;
+  flex-direction: column;
+}
+
+#recipe2{
+  display: flex;
+  flex-direction: column;
+}
+
+#recipe3{
+  display: flex;
+  flex-direction: column;
+}
+
+#recipe1 img{
+  height: 400px;
+  width: 30vw;
+}
+
+#recipe2 img{
+  height: 400px;
+  width: 30vw;
+}
+
+#recipe3 img{
+  height: 400px;
+  width: 30vw;
+}
+
+a {
+  margin-left: 7vw;
+}
+
+#about-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#about-content img{
+  height: 400px;
+  width: 50vw;
+}
+
+#mission{
+  font-family: fantasy;
+  background-color: #edf5f7;
+  color: #ad8e72;
+  padding-top: 10vw;
+}
